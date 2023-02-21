@@ -1,67 +1,66 @@
-<!-- html:5 (or) shift + 1 to genearte the bolier plate code -->
-
-<!-- emmet plugin in vs code -> abbrevation(shortcut)  -->
-<!-- we are defining that the documnet type is html pages -->
-
-<!-- babel = next generation js code complie to browser understandable code -->
-<!-- html-> head and body -->
-<!-- inisde head you can define meta tag -> seo,description,title,favicon,link -->
-<!-- body is main part -> always write your code inside body -->
-
-<!-- open tag = close tag -> called as html element -->
-<!-- indide what you write in open and close tag that will appers on browser -->
-
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>first class</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- external -->
+    <!-- internal -->
+    <!-- <style>
+        h1{
+            background-color: blueviolet;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">  -->
+    <!-- url size keyboard -->
+
+    <!-- class . can be given to multiple element -->
+    <!-- id # can be given to one  lement -->
+    <style>
+        .card{
+            width:220px;
+            border:1px solid #ccc;
+            padding:12px;
+            border-radius: 8px;
+        }
+        .card-img{
+            width:100%;
+            border-radius: 8px;
+        }
+        .mt-0{
+            margin-top: 0px;
+        }
+        .mb-0{
+            margin-bottom: 0px;
+        }
+        .card-title{
+            color:rgb(39,39,41);
+        }
+        .card-desc{
+            color:#6a6767;
+            font-size: 12px;
+        }
+    </style>
 </head>
 <body>
-    <!-- multi cusor alt + click -->
-    <!-- heading tag -->
-    <!-- <h1>hello world</h1>
-    <h2>hello world</h2>
-    <h3>hello world</h3>
-    <h4>hello world</h4>
-    <h5>hello world</h5>
-    <h6>hello world</h6> -->
 
-
-    <!-- paragraph tag -->
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, consequuntur.</p>
-
-    <!-- anchor tag -> connecting link between two pages -->
-    <!-- attribute additonal featiure of element -->
-    <!-- <a download  href="./tree-736885__480.jpg">click me download it</a> -->
-
-    <!-- list -> orderlist and unordered -->
-
-
-    <ol type="">
-        <li>home</li>
-        <li>contacxt</li>
-    </ol>
-
-    <ul>
-        <li>home</li>
-        <li>cocntact</li>
-    </ul>
-
-    <!-- block element and  inline elemnt -->
-
-    <!-- block level element it will takes whole space or width -->
-
-    <div style="background-color: blueviolet;">
-        <h1>hello world</h1>
-
-    <span  >hello world</span>
-
-    <em >helllow world</em>
-    </div>
     
 
-</body>
-</html> 
+    <div class="card">
+        <img class="card-img" src="./tree-736885__480.jpg" alt="">
 
+        <h2 class=" card-title  mt-0 mb-0">Nature image</h2>
+        <p class="card-desc mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quas reprehenderit ratione harum quam ducimus incidunt?</p>
+    </div>
+    <div class="card">
+        <img class="card-img" src="./tree-736885__480.jpg" alt="">
+
+        <h2 class=" card-title  mt-0 mb-0">Nature image</h2>
+        <p class="card-desc mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quas reprehenderit ratione harum quam ducimus incidunt?</p>
+    </div>
+    
+    
+</body>
+</html>
